@@ -15,9 +15,9 @@ import org.springframework.security.ldap.search.FilterBasedLdapUserSearch;
 import org.springframework.security.ldap.userdetails.DefaultLdapAuthoritiesPopulator;
 import org.springframework.security.ldap.userdetails.LdapUserDetailsMapper;
 import org.springframework.stereotype.Component;
-import tz.go.ega.uaa.entity.UserAccount;
-import tz.go.ega.uaa.enums.UserAuthenticationType;
-import tz.go.ega.uaa.repository.UserAccountRepository;
+import com.malugu.springboot_starter_project.uaa.entity.UserAccount;
+import com.malugu.springboot_starter_project.uaa.enums.UserAuthenticationType;
+import com.malugu.springboot_starter_project.uaa.repository.UserAccountRepository;
 
 import java.util.Optional;
 

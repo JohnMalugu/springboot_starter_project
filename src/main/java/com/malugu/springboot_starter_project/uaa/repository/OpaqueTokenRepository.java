@@ -1,8 +1,8 @@
 package com.malugu.springboot_starter_project.uaa.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import tz.go.ega.uaa.entity.OpaqueToken;
-import tz.go.ega.uaa.enums.TokenType;
+import com.malugu.springboot_starter_project.uaa.entity.OpaqueToken;
+import com.malugu.springboot_starter_project.uaa.enums.TokenType;
 
 import java.util.Optional;
 

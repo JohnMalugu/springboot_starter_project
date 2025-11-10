@@ -6,7 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
-import tz.go.ega.uaa.enums.TokenType;
+import com.malugu.springboot_starter_project.uaa.enums.TokenType;
 
 import java.time.Instant;
 import java.time.LocalDateTime;

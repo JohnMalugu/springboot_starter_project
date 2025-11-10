@@ -6,9 +6,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import tz.go.ega.uaa.dto.UserAccountDto;
-import tz.go.ega.uaa.entity.UserAccount;
-import tz.go.ega.uaa.serviceImpl.UserAccountServiceImpl;
+import com.malugu.springboot_starter_project.uaa.dto.UserAccountDto;
+import com.malugu.springboot_starter_project.uaa.entity.UserAccount;
+import com.malugu.springboot_starter_project.uaa.serviceImpl.UserAccountServiceImpl;
 
 @RestController
 public class UserController {

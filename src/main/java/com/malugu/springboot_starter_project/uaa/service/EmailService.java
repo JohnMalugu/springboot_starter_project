@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
-import tz.go.ega.utils.TokenConfigurationProperties;
+import com.malugu.springboot_starter_project.utils.TokenConfigurationProperties;
 
 import java.time.LocalDate;
 

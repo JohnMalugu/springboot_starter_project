@@ -3,7 +3,7 @@ package com.malugu.springboot_starter_project.utils.pagination;
 import jakarta.persistence.criteria.*;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Component;
-import tz.go.ega.utils.Utility;
+import com.malugu.springboot_starter_project.utils.Utility;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

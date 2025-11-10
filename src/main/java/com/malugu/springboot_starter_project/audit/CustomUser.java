@@ -1,4 +1,4 @@
-package com.malugu.springboot_starter_project.audit;//package tz.go.ega.audit;
+package com.malugu.springboot_starter_project.audit;//package com.malugu.springboot_starter_project.audit;
 //
 //import java.util.Collection;
 //

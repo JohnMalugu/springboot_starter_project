@@ -7,7 +7,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.hibernate.envers.Audited;
-import tz.go.ega.uaa.enums.UserAuthenticationType;
+import com.malugu.springboot_starter_project.uaa.enums.UserAuthenticationType;
 
 import java.io.Serial;
 import java.util.List;

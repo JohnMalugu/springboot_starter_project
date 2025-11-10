@@ -245,7 +245,7 @@ public class Utility {
             // Add affected file and line number (using the first element in the stack trace that belongs to your application)
             for (StackTraceElement element : stackTrace) {
                 String className = element.getClassName();
-                if (className.startsWith("tz.go.ega.ods")) {
+                if (className.startsWith("com.malugu.springboot_starter_project.ods")) {
                     formattedError.append("Location: ")
                             .append(className)
                             .append(".")

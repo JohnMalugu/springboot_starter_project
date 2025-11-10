@@ -3,10 +3,10 @@ package com.malugu.springboot_starter_project.uaa.serviceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import tz.go.ega.uaa.entity.Role;
-import tz.go.ega.uaa.entity.UserAccount;
-import tz.go.ega.uaa.repository.RoleRepository;
-import tz.go.ega.uaa.repository.UserAccountRepository;
+import com.malugu.springboot_starter_project.uaa.entity.Role;
+import com.malugu.springboot_starter_project.uaa.entity.UserAccount;
+import com.malugu.springboot_starter_project.uaa.repository.RoleRepository;
+import com.malugu.springboot_starter_project.uaa.repository.UserAccountRepository;
 
 import java.util.*;
 

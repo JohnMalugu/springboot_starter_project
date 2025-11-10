@@ -5,10 +5,10 @@ import org.springframework.security.oauth2.core.OAuth2AuthenticatedPrincipal;
 import org.springframework.security.oauth2.server.resource.introspection.BadOpaqueTokenException;
 import org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector;
 import org.springframework.stereotype.Component;
-import tz.go.ega.uaa.entity.OpaqueToken;
-import tz.go.ega.uaa.entity.UserAccount;
-import tz.go.ega.uaa.enums.TokenType;
-import tz.go.ega.uaa.repository.UserAccountRepository;
+import com.malugu.springboot_starter_project.uaa.entity.OpaqueToken;
+import com.malugu.springboot_starter_project.uaa.entity.UserAccount;
+import com.malugu.springboot_starter_project.uaa.enums.TokenType;
+import com.malugu.springboot_starter_project.uaa.repository.UserAccountRepository;
 
 import java.util.*;
 

@@ -12,7 +12,7 @@ import org.hibernate.envers.Audited;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import tz.go.ega.uaa.enums.UserAuthenticationType;
+import com.malugu.springboot_starter_project.uaa.enums.UserAuthenticationType;
 
 import java.io.Serial;
 import java.time.LocalDateTime;

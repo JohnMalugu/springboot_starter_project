@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
-import tz.go.ega.uaa.entity.UserAccount;
-import tz.go.ega.uaa.repository.UserAccountRepository;
+import com.malugu.springboot_starter_project.uaa.entity.UserAccount;
+import com.malugu.springboot_starter_project.uaa.repository.UserAccountRepository;
 
 import java.util.Optional;
 
